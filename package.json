@@ -1,0 +1,27 @@
+{
+  "name": "passencryptor",
+  "version": "1.0.0",
+  "description": "Simple password encryptor using bcrypt.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KonradLinkowski/PassEncryptor.git"
+  },
+  "keywords": [
+    "password",
+    "bcrypt"
+  ],
+  "author": "Konrad Linkowski <linkowski.konrad97@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KonradLinkowski/PassEncryptor/issues"
+  },
+  "homepage": "https://github.com/KonradLinkowski/PassEncryptor#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "prompt": "^1.0.0"
+  }
+}
